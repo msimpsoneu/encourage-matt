@@ -1,0 +1,24 @@
+{
+  "name": "encourage-matt",
+  "version": "1.0.0",
+  "description": "A twitter bot to encourage Matt every day",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msimpsoneu/encourage-matt.git"
+  },
+  "author": "Michael Simpson",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/msimpsoneu/encourage-matt/issues"
+  },
+  "homepage": "https://github.com/msimpsoneu/encourage-matt#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "twit": "^2.2.11"
+  }
+}
